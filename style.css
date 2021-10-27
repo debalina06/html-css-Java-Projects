@@ -18,8 +18,8 @@ body {
 }
 .wrapper{
      padding: 20px 0px 20px 0px;
-    /* background-image: url('https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'); */
-    background-image: url('pexels-photo-1649771.jpeg');
+   
+    background-color: yellow;
     background-position: center;
     height: 600px;
     background-size: cover;
