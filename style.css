@@ -16,6 +16,32 @@ body {
   overflow: hidden;
   margin: 0;
 }
+.item nav{
+    display: flex;
+}
+.item nav ul{
+    display: flex;
+}
+.item nav ul li{
+    list-style: none;
+    padding: 0px 16px;
+    font-size: 24px;
+}
+.item nav ul li i{
+    color:white;
+}
+.item nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+.item nav ul li a:hover{
+    color:grey;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.item nav ul li .active{
+    color:rgb(93, 226, 175);
+}
 
 .btn {
   background-color: rebeccapurple;
