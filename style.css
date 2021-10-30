@@ -16,6 +16,61 @@ body {
   overflow: hidden;
   margin: 0;
 }
+.wrapper{
+     padding: 20px 0px 20px 0px;
+   
+    background-color: yellow;
+    background-position: center;
+    height: 600px;
+    background-size: cover;
+    box-shadow: 2px 2px 17px rgb(18, 19, 18);
+    /* width:100%; */
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* height: 300px; */
+}
+.item{
+     /* margin-top: 10px; */
+     display: flex;
+}
+.item h3{
+    color:white;
+}
+.item h3 b{
+    background-color: rgb(95, 214, 155);
+    border-radius: 50%;
+    color:black;
+    padding:5px 9px;
+}
+.item nav{
+    display: flex;
+}
+.item nav ul{
+    display: flex;
+}
+.item nav ul li{
+    list-style: none;
+    padding: 0px 16px;
+    font-size: 24px;
+}
+.item nav ul li i{
+    color:white;
+}
+.item nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+.item nav ul li a:hover{
+    color:grey;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.item nav ul li .active{
+    color:rgb(93, 226, 175);
+}
 
 .btn {
   background-color: rebeccapurple;
